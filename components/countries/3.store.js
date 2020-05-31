@@ -14,7 +14,7 @@ async function updateCountry(id, message) {
     _id: id,
   });
 
-  foundMessage.message = "Mexico";
+  foundMessage.name = message;
 
   const newMessage = await foundMessage.save();
   console.log(newMessage)
