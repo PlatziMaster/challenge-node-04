@@ -6,5 +6,5 @@ app.get('/', function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log('Servidor esta funcionando http://localhost:8000/');
+  console.log('Servidor esta funcionando http://localhost:3000/');
 });
